@@ -97,8 +97,8 @@ void ManageBooks::onAddClicked()
     AddBook dialog(this);
     dialog.setWindowTitle(windowTitle());
 
-    if (dialog.exec() == QDialog::Accepted)
-    {
+    if (dialog.exec() == QDialog::Accepted){
+
         const Book &book = dialog.getBook();
 
         QFile file(Config::BooksBin);
