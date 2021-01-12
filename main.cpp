@@ -6,7 +6,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
     MainWidget w;
     w.resize(800,600);
     w.show();
