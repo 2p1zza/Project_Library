@@ -21,7 +21,6 @@ Registration::Registration(TypeRegistration typeReg, QWidget *parent) :
 
     connect(ui->enterButton, SIGNAL(clicked()),
            this, SIGNAL(openAuthorization()));
-
 }
 
 Registration::~Registration()
