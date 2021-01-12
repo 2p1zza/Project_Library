@@ -24,6 +24,7 @@ Authorization::~Authorization()
 
 User *Authorization::checkUser(const QString &login, const QString &password){
     QFile file(Config::Usersbin);
+
     if (file.exists()){
         User *user = nullptr;
         if (!file.open(QIODevice::ReadOnly)){
