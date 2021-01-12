@@ -8,6 +8,7 @@
 #include <QFile>
 #include <QVBoxLayout>
 #include <QDebug>
+
 #include "user.h"
 #include "readerwindow.h"
 
