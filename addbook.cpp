@@ -54,6 +54,7 @@ void AddBook::accept()
     QRegExp nameExp ("[А-Я]+[а-я]+");
 
     bool ok;
+
     ui->errorLabel->clear();
 
     const QString name = ui->nameLineEdit->text();
