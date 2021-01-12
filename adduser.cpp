@@ -99,6 +99,7 @@ void addUser::accept()
     {
         amount++;
         newUser.setData(status, login, password, name, patronymic, surname, homeAdress, amount);
+
         if(status != User::Reader){
             newUser.setNumber(0);
         }
