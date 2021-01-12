@@ -2,6 +2,7 @@
 
 #include "Config.h"
 #include "mainwindow.h"
+
 #include<registration.h>
 #include <authorization.h>
 #include <QFile>
