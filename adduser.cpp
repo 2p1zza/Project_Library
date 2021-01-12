@@ -56,7 +56,6 @@ void addUser::accept()
     QRegExp nameExp ("[А-Я]+[а-я]+");
     QRegExp loginExp ("[A-z]+[a-z]+");
 
-
     ui->errorLabel->clear();
 
     const QString login = ui->loginLineEdit->text();
