@@ -2,7 +2,6 @@
 
 Book::Book()
 {
-
 }
 
 Book::Book(const QString &name, const QString &author, const int &pages,
