@@ -17,7 +17,8 @@ addUser::~addUser()
     delete ui;
 }
 
-const User &addUser::getUser() const{
+const User &addUser::getUser() const
+{
     return newUser;
 }
 
