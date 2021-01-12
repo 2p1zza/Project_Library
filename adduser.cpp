@@ -25,6 +25,7 @@ const User &addUser::getUser() const
 bool addUser::isLoginExists(const QString &login){
     amount = 0;
     QFile file(Config::Usersbin);
+
     bool registered = false;
     if (file.exists()){
         if (!file.open(QIODevice::ReadOnly)){
