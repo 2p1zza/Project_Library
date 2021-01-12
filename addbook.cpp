@@ -55,6 +55,7 @@ void AddBook::accept()
 
     bool ok;
     ui->errorLabel->clear();
+
     const QString name = ui->nameLineEdit->text();
     const QString author = ui->authorLineEdit->text();
     const QString pages = ui->pagesLineEdit->text();
