@@ -47,6 +47,7 @@ MainWidget::~MainWidget()
 void MainWidget::slotOpenAuthorization()
 {
     delete currentWidget;
+
     currentWidget = new Authorization(this);
     connect(currentWidget, SIGNAL(openRegistration()),
             this, SLOT(slotOpenRegistration()));
