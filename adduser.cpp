@@ -58,6 +58,7 @@ void addUser::accept()
 
 
     ui->errorLabel->clear();
+
     const QString login = ui->loginLineEdit->text();
     const QString password = ui->lineEpasswordLineEdit->text();
     const QString name = ui->nameLineEdit->text();
