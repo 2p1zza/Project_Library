@@ -21,6 +21,7 @@ ManageBooks::ManageBooks(QWidget *parent) :
     QFile file(Config::BooksBin);
     if (file.open(QIODevice::ReadOnly)) {
         QDataStream ist(&file);
+
         while (!ist.atEnd()) {
             Book book;
             ist >> book;
