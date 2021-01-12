@@ -27,6 +27,7 @@ ManageUsers::ManageUsers(QWidget *parent) :
     }
 
     int row = 0;
+
     foreach (const User &user, m_listUsers) {
             QTableWidgetItem *item_login = new QTableWidgetItem(user.login());
             QTableWidgetItem *item_name = new QTableWidgetItem(user.name());
