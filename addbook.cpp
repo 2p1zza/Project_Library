@@ -26,6 +26,7 @@ bool AddBook::isNameExists(const QString &name){
     QFile file(Config::BooksBin);
 
     bool registered = false;
+
     if (file.exists()){
         if (!file.open(QIODevice::ReadOnly)){
             return registered;
