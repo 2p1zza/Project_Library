@@ -68,7 +68,6 @@ QMap<User::Status, QString> User::getListStatus(){
 void User::setData(const User::Status &status, const QString &login, const QString &password,
                    const QString &name, const QString &patronymic, const QString &surname,
                    const QString &homeAdress, const int &number){
-
     userStatus = status;
     userLogin = login;
     userPassword = password;
