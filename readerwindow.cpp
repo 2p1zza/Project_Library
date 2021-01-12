@@ -1,5 +1,6 @@
 #include "readerwindow.h"
 #include "ui_readerwindow.h"
+
 #include <QFile>
 #include <QDataStream>
 #include <QDebug>
