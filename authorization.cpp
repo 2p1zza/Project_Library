@@ -54,6 +54,7 @@ void Authorization::on_entry_clicked(){
     QRegExp loginExp ("[A-z]+[a-z]+");
 
     ui->errorLabel->clear();
+
     const QString login = ui->loginLineEdit->text();
     const QString password = ui->passordLineEdit->text();
 
