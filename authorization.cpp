@@ -52,7 +52,6 @@ User *Authorization::checkUser(const QString &login, const QString &password){
 }
 
 void Authorization::on_entry_clicked(){
-
     QRegExp loginExp ("[A-z]+[a-z]+");
 
     ui->errorLabel->clear();
